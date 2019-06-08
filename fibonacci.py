@@ -20,7 +20,7 @@ def fibonacciWithRecurssion(n):
 # this function  computes the nth term of fibonacci series without recursion
 
 
-def fibonacciWithourRecusrrion(n):
+def fibonacciWithoutRecusrrion(n):
     a = 0
     b = 1
     if n < 0:
@@ -43,4 +43,4 @@ for i in range(1, 50):
 
 # printing the first thousand numbers in fibonacci series, it compute smoothly
 for i in range(1, 1001):
-    print(str(i)+":"+str(fibonacciWithourRecusrrion(i)))
+    print(str(i)+":"+str(fibonacciWithoutRecusrrion(i)))
