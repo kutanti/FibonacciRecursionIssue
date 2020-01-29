@@ -1,4 +1,4 @@
-# this function  computes the nth term of fibonacci series with recursion
+# this function  computes the nth term of fibonacci series with recursio. Time O(2^n)
 def fibonacciWithRecurssion(n):
     fibonacci_cache = {}
     if n < 0:
@@ -17,7 +17,7 @@ def fibonacciWithRecurssion(n):
     return value
 
 
-# this function  computes the nth term of fibonacci series without recursion
+# this function  computes the nth term of fibonacci series with DP, Time O(n)
 
 
 def fibonacciWithoutRecusrrion(n):
